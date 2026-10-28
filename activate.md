@@ -6,24 +6,29 @@ title: Activate Marionette Pro
 
 [한국어](ko/activate)
 
-Thank you for buying Marionette Pro. Your license key:
+Thank you for buying Marionette Pro. Your license key is in the **receipt email** from Lemon Squeezy.
 
-<p><code id="key">(no key in this link: copy it from your receipt email)</code>
-<button id="copy" type="button" hidden>Copy</button></p>
+## Activate in three steps
 
-<p><a id="open" href="#" hidden><strong>Open Marionette and activate</strong></a></p>
+1. Copy the license key from the receipt email.
+2. Open the Marionette window (double-click the Marionette icon in the notification area) and go to the **About** tab.
+3. Paste the key in **License key** and press **Register**. The license line changes to **Pro**.
 
-Your browser asks once whether to open Marionette; allow it. Marionette shows its **About** tab and activates the key on this PC.
-If Marionette already has a key, it fills the key in and waits for you to press **Register** (so a link alone never replaces your key).
+Marionette needs the internet once to register the key. Not installed yet? See [how to get it](./#get-it).
 
-If nothing opens:
+<div id="link" hidden markdown="0">
+<p>This link carries a license key:</p>
+<p><code id="key"></code> <button id="copy" type="button">Copy</button></p>
+<p><a id="open" href="#"><strong>Open Marionette and activate</strong></a></p>
+<p>Your browser asks once whether to open Marionette; allow it. If Marionette already has a key, it only fills the key in and waits for you to press <strong>Register</strong>.
+The key stays in your browser: it is read from the part of the address after <code>#</code>, which browsers never send to a server.</p>
+</div>
 
-1. Make sure Marionette is installed ([how to get it](./#get-it)).
-2. Copy the key above, open the Marionette window (double-click the tray icon) → **About** → paste it in **License key** → **Register**.
+## Good to know
 
-One key activates one PC. To move it, press **Remove key** on the old PC first.
-The key stays on this page only: it is read from the part of the address after `#`, which your browser never sends to a server.
-Lost the key? It is in your receipt email and in your Lemon Squeezy order history. Questions: codetelier.support@gmail.com
+- One key activates one PC. To move it, press **Remove key** on the old PC first, then register the key on the new one.
+- Lost the email? Your key is also in your Lemon Squeezy order history ([My Orders](https://app.lemonsqueezy.com/my-orders)).
+- Questions: codetelier.support@gmail.com
 
 <script>
 (function () {
@@ -32,14 +37,12 @@ Lost the key? It is in your receipt email and in your Lemon Squeezy order histor
   if (!/^[A-Za-z0-9._-]{1,2048}$/.test(key)) return;
   document.getElementById("key").textContent = key;
   var link = "marionette://activate?key=" + encodeURIComponent(key);
-  var open = document.getElementById("open");
-  open.href = link;
-  open.hidden = false;
+  document.getElementById("open").href = link;
   var copy = document.getElementById("copy");
-  copy.hidden = false;
   copy.onclick = function () {
     navigator.clipboard.writeText(key).then(function () { copy.textContent = "Copied"; });
   };
+  document.getElementById("link").hidden = false;
   location.href = link;
 })();
 </script>
