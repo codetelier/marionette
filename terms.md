@@ -8,7 +8,7 @@ Effective date: 2026-10-28 · Developer: Sewoong Oh (Codetelier) · Contact: cod
 
 [한국어](ko/terms) · [Refund Policy](refund) · [Privacy Policy](privacy)
 
-These terms are the end-user license agreement that the Marionette installer shows. The Korean text ([한국어](ko/terms)) is the original; if the two differ, the Korean text applies.
+These terms are the end-user license agreement that the Marionette installer shows. This English text is the original; the Korean translation ([한국어](ko/terms)) is for convenience, and if the two differ, this English text applies.
 
 This agreement is between Sewoong Oh, the copyright holder of the Marionette software (the "Software"), and the person or organization that installs or uses the Software (the "User"). Installing or using the Software means you accept this agreement. If you do not accept it, do not install or use the Software.
 
