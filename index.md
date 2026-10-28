@@ -27,7 +27,7 @@ Install with [winget](https://learn.microsoft.com/windows/package-manager/winget
 winget install Codetelier.Marionette
 ```
 
-Marionette checks for new versions once a day and installs them when you choose (or, if you turn on automatic install, while Claude is idle).
+Marionette checks for new versions once a day and installs a downloaded one the next time it starts (or right away, when you choose).
 
 ## System requirements
 

@@ -28,7 +28,7 @@ PowerShell이나 명령 프롬프트에서 [winget](https://learn.microsoft.com/
 winget install Codetelier.Marionette
 ```
 
-새 버전은 하루 한 번 확인하고, 사용자가 고른 때(자동 설치를 켜면 Claude가 쉬는 동안) 설치합니다.
+새 버전은 하루 한 번 확인해 받아 두고, 다음에 Marionette가 시작할 때(또는 원할 때 바로) 설치합니다.
 
 ## 시스템 요구 사항
 

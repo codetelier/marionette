@@ -56,7 +56,7 @@ The Software includes open-source software and models under their own licenses. 
 4. The Software connects to the internet only:
    1. To check for updates: when installed from the installer, after it starts and once a day, it requests the update list file. The request includes the Software's version, and the server that receives it (GitHub) can see the User's IP address as with any web request.
    2. To check a license key: when a license key bought from the seller is registered or removed, when the Software starts, and once a day, it sends the license key, the computer name and the activation ID to the seller (Lemon Squeezy) to check the key. This information is governed by the seller's terms and privacy policy.
-5. Both Free and Pro receive updates. The User can turn off automatic update checks and automatic installation in the settings, but is advised to keep them on to receive security fixes.
+5. Both Free and Pro receive updates. The User can turn off automatic updates in the settings, but is advised to keep them on to receive security fixes.
 
 ## 7. User's responsibility
 
