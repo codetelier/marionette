@@ -14,7 +14,7 @@ Marionette MCP is a local MCP server for Windows. An AI client such as Claude Co
 
 - **Sees the screen**: text recognition (OCR, Korean and English) and icon detection run on your PC; elements come back as a numbered list.
 - **Operates apps**: clicks, typing (Korean too), keys, scrolling, drag, window focus and placement, UI Automation when an app offers it.
-- **Shows what it does**: a pointer and target highlight on screen, and an emergency stop (Ctrl+Alt+Backspace or a quick shake of the mouse) that halts all input at once.
+- **Shows what it does**: a pointer and target highlight on screen, and a kill switch (Ctrl+Alt+K or a quick throw of the mouse off the screen) that halts all input at once.
 - **Learns apps**: short app notes (tips and pitfalls) it shares with the AI client the next time.
 - **Works without administrator rights**: runs as a normal user; restart it as administrator from the tray menu when an app running as administrator must be driven.
 - **Remote use (optional)**: let Claude Code on another PC you specify drive this one (a test VM, for example), with an access token and a firewall rule for that address only.

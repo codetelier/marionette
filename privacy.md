@@ -4,7 +4,7 @@ title: Marionette MCP — Privacy Policy
 
 # Marionette MCP — Privacy Policy
 
-Effective date: 2026-10-28 · Developer: Sewoong Oh (Codetelier) · Contact: codetelier.support@gmail.com
+Effective date: 2026-10-29 · Developer: Sewoong Oh (Codetelier) · Contact: codetelier.support@gmail.com
 
 [한국어](ko/privacy)
 
@@ -24,7 +24,7 @@ Marionette MCP ("Marionette") is a Windows desktop app that lets an AI client yo
 | Recognized text, element lists, window titles and app names | Returned to the connected AI client as the tool's result. |
 | Screenshots | Returned to the AI client only when it asks for an image. |
 | Text the AI client types | Sent to the target app as keyboard input. To enter some text (such as Korean), Marionette puts it on the clipboard briefly, pastes it, and puts back the clipboard text that was there before. |
-| Your own keyboard input | **Not recorded.** Marionette registers one global hotkey (the emergency stop, Ctrl+Alt+Backspace by default) and does not log other keys. |
+| Your own keyboard input | **Not recorded.** Marionette registers one global hotkey (the kill switch, Ctrl+Alt+K by default) and does not log other keys. |
 
 ## Where the results go
 
