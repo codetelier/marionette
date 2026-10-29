@@ -25,6 +25,7 @@ Marionette MCP ("Marionette") is a Windows desktop app that lets an AI client yo
 | Screenshots | Returned to the AI client only when it asks for an image. |
 | Text the AI client types | Sent to the target app as keyboard input. To enter some text (such as Korean), Marionette puts it on the clipboard briefly, pastes it, and puts back the clipboard text that was there before. |
 | Your own keyboard input | **Not recorded.** Marionette registers one global hotkey (the kill switch, Ctrl+Alt+K by default) and does not log other keys. |
+| Your own mouse movements | **Not recorded.** While Marionette is working, it watches how fast the pointer moves, only to notice the kill switch (a quick throw of the mouse off the screen). Positions are kept for a tenth of a second in memory and never written down or sent. |
 
 ## Where the results go
 
