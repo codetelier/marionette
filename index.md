@@ -23,7 +23,7 @@ Marionette MCP is a local MCP server for Windows. An AI client such as Claude Co
 
 **[Download (MSI)](https://github.com/codetelier/marionette/releases/download/v1.3.1/Marionette-1.3.1-x64.msi)**: Marionette 1.3.1 for Windows 10 and 11 (64-bit), about 362 MB. It installs for your user account only, with no administrator rights. The installer isn't code-signed yet, so Windows may show "Windows protected your PC": choose **More info**, then **Run anyway**.
 
-Or install with [winget](https://learn.microsoft.com/windows/package-manager/winget/) (built into Windows 10 and 11) from PowerShell or the command prompt. No administrator rights and no setup screens:
+Or install with [winget](https://learn.microsoft.com/windows/package-manager/winget/) (built into Windows 10 and 11) from PowerShell or the command prompt (**coming soon**: not in winget yet). No administrator rights and no setup screens:
 
 ```
 winget install Codetelier.Marionette

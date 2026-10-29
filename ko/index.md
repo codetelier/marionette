@@ -24,7 +24,7 @@ Marionette MCP는 Windows용 로컬 MCP 서버입니다. Claude Code 같은 AI �
 
 **[다운로드 (MSI)](https://github.com/codetelier/marionette/releases/download/v1.3.1/Marionette-1.3.1-x64.msi)**: Marionette 1.3.1, Windows 10·11(64비트)용, 약 362MB. 사용자 계정에만 설치되어 관리자 권한이 필요 없습니다. 설치 파일에 아직 코드 서명이 없어 "Windows의 PC 보호"가 나올 수 있습니다. **추가 정보**를 누른 뒤 **실행**을 누르세요.
 
-또는 PowerShell이나 명령 프롬프트에서 [winget](https://learn.microsoft.com/ko-kr/windows/package-manager/winget/)(Windows 10·11에 들어 있음)으로 설치합니다. 관리자 권한도, 설치 화면도 필요 없습니다.
+또는 PowerShell이나 명령 프롬프트에서 [winget](https://learn.microsoft.com/ko-kr/windows/package-manager/winget/)(Windows 10·11에 들어 있음)으로 설치합니다(**준비 중**: 아직 winget에 등록되지 않음). 관리자 권한도, 설치 화면도 필요 없습니다.
 
 ```
 winget install Codetelier.Marionette
